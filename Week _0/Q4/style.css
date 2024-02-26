@@ -1,0 +1,17 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(110, 151, 212);
+    padding: 127px;
+  }
+  #invocations {
+    font-size: 40px;
+    font-weight: bolder;
+    color: aquamarine;
+}
+#instances {
+    font-size: 40px;
+    font-weight: bolder;
+    color: aquamarine;
+}
