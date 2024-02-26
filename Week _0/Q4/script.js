@@ -24,6 +24,8 @@ const instance2 = tracker.createInstance();
 instance1(); // Output: Function has been invoked 1 times.
 instance1(); // Output: Function has been invoked 2 times.
 instance2(); // Output: Function has been invoked 3 times.
-
-console.log(`Total invocations: ${tracker.getInvocations()}`); // Output: Total invocations: 3
-console.log(`Total instances: ${tracker.getInstances()}`); // Output: Total instances: 2
+var invocations = `Total invocations: ${tracker.getInvocations()}`;
+document.getElementById("invocations").textContent = invocations;
+var instances = `Total instances: ${tracker.getInstances()}`;
+// console.log(`Total invocations: ${tracker.getInvocations()}`); // Output: Total invocations: 3
+document.getElementById("instances").textContent = instances; // Output: Total instances: 2
