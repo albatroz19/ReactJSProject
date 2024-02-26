@@ -1,0 +1,12 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(110, 151, 212);
+    padding: 127px;
+  }
+  #number{
+    font-size: 400px;
+    font-weight: bolder;
+    color: aquamarine;
+}
